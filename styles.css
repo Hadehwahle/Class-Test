@@ -1,0 +1,51 @@
+/* Basic Navbar Styling */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  font-size: 62.5%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+}
+
+.navbar .logo {
+  color: white;
+  font-size: 2rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex; /* Horizontal layout by default */
+  margin: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+div p {
+  font-size: 1.5rem;
+}
+
+button {
+  display: none;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+}

@@ -1,0 +1,9 @@
+.nav-links {
+  display: none;
+}
+button {
+  display: block;
+}
+html {
+  font-size: 60%;
+}

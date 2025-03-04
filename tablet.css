@@ -1,0 +1,9 @@
+.nav-links {
+  display: flex;
+}
+button {
+  display: none;
+}
+html {
+  font-size: 40%;
+}
